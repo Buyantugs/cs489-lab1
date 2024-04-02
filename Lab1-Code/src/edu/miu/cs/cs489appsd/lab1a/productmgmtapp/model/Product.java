@@ -1,5 +1,7 @@
 package edu.miu.cs.cs489appsd.lab1a.productmgmtapp.model;
 import java.util.Date;
+import java.util.UUID;
+
 public class Product {
     private  String productId;
     private String productName;
@@ -21,6 +23,7 @@ public class Product {
 
     // Constructor without productID
     public Product(String productName, Date dateSupplied, Integer qtyInStock, Double unitPrice) {
+        this.productId = UUID.randomUUID().toString();
         this.productName = productName;
         this.dateSupplied = dateSupplied;
         this.qtyInStock = qtyInStock;
