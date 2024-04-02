@@ -10,7 +10,7 @@ public class ProductMgmtApp {
 
         Product product1=new Product("3128874119", "Banana", new Date(2023 - 1900, 0, 24),124,0.55);
         Product product2=new Product("2927458265", "Apple", new Date(2023 - 1900, 0, 24),18,1.09);
-        Product product3=new Product("9189927460", "Carrot", new Date(2023 - 1900, 0, 24),89,2.99);
+        Product product3=new Product("Carrot", new Date(2023 - 1900, 0, 24),89,2.99);
         productArray[0]=product1;
         productArray[1]=product2;
         productArray[2]=product3;
